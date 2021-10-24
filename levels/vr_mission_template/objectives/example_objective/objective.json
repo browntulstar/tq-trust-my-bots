@@ -1,21 +1,27 @@
 {
-  "title": "Example Objective",
-  "description": "This is what an <strong>objective description</strong> looks like!",
+  "title": "Fix my alarm bot!",
+  "description": "Help Killjoy fix her <strong>alarm bot</strong> by tweaking its <strong>damage</strong> and <strong>cooldown</strong> settings!",
   "validation_fields": [
     {
       "name": "answer1",
       "type": "text",
       "placeholder": "type your answer here",
-      "label": "What is the name of the company that makes TwilioQuest?"
+      "label": "How long is the alarm bot supposed to cool down for when recalled?"
     },
     {
       "name": "answer2",
       "type": "text",
       "placeholder": "type your answer here",
-      "label": "What is 2 + 2? Write the numerical response below."
+      "label": "How much damage should the alarm bot do?"
+    }, 
+    {
+      "name": "answer3",
+      "type": "boolean",
+      "placeholder":"",
+      "label": "True or False: Killjoy can recall her alarm bot after it is destroyed."
     }
   ],
   "rewards": {
-    "xp": 100
+    "xp": 10000
   }
 }
